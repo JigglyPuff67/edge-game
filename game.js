@@ -2,29 +2,24 @@ let lines = [];
 let currentLine = 0;
 
 const output = document.getElementById("output");
-const fileInput = document.getElementById("fileInput");
 
 
-fileInput.addEventListener("change", function(event) {
+function loadGame() {
 
-    const file = event.target.files[0];
+    let game = document.getElementById("gameSelect").value;
 
-    if (!file) return;
+    fetch("scripts/" + game)
+        .then(response => response.text())
+        .then(text => {
 
-    const reader = new FileReader();
+            lines = text.split("\n");
+            currentLine = 0;
 
-    reader.onload = function(e) {
+            output.textContent = "Ready.\nPress NEXT.";
 
-        lines = e.target.result.split("\n");
-        currentLine = 0;
+        });
 
-        output.textContent = "Ready.\nPress NEXT to begin.";
-
-    };
-
-    reader.readAsText(file);
-
-});
+}
 
 
 function nextLine() {
@@ -35,21 +30,14 @@ function nextLine() {
 
         currentLine++;
 
-        window.scrollTo(0, document.body.scrollHeight);
-
-    } else {
-
-        output.textContent += "\n\n--- END OF GAME ---";
-
     }
 
 }
 
 
-// Press Enter to advance
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function(event){
 
-    if (event.key === "Enter") {
+    if(event.key === "Enter"){
         nextLine();
     }
 
