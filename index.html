@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 22px;
+            padding: 20px;
+        }
+
+        #output {
+            white-space: pre-wrap;
+            line-height: 1.5;
+            min-height: 300px;
+        }
+
+        button {
+            font-size: 22px;
+            padding: 15px 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>House Game</h2>
+
+<input type="file" id="fileInput" accept=".txt">
+
+<div id="output">
+Choose a game script to begin.
+</div>
+
+<button onclick="nextLine()">NEXT</button>
+
+<script src="game.js"></script>
+
+</body>
+</html>
