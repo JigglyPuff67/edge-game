@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>House Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House Game</title>
 
-    <style>
-        body {
-            background: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            font-size: 22px;
-            padding: 20px;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        #output {
-            white-space: pre-wrap;
-            line-height: 1.5;
-            min-height: 300px;
-        }
+<style>
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+}
 
-        button {
-            font-size: 22px;
-            padding: 15px 30px;
-            margin-top: 20px;
-        }
-    </style>
+#output {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+button, select {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+</style>
+
 </head>
 
 <body>
 
 <h2>House Game</h2>
 
-<input type="file" id="fileInput" accept=".txt">
+<select id="gameSelect">
+    <option value="Game1.txt">Game 1</option>
+    <option value="Game2.txt">Game 2</option>
+    <option value="Game3.txt">Game 3</option>
+</select>
+
+<br>
+
+<button onclick="loadGame()">START</button>
 
 <div id="output">
-Choose a game script to begin.
+Choose a game.
 </div>
+
+<br>
 
 <button onclick="nextLine()">NEXT</button>
 
