@@ -1,107 +1,107 @@
 Welcome to the Edge Game
 Each round, you'll spin three random wheels in order. Wheel 1 generates a number between 1 and 100, wheel 2 generates a number between 1 and 50 and wheel 3 generates a number between 1 and 25. You'll only spin the next wheel if you pass the current one.
-Each wheel has a target number. On wheel 1 you need to spin 45 or less. On wheel 2 you need to spin 15 or less and on wheel 3 you need to spin 10 or less.
-If you fail to hit your target, the round ends immediately. Wait for the cool-off time before trying again. Your failed target is then updated to the number you rolled. Example: If your target is 50 and you roll 60, the round ends. In your next round, your new target for that wheel is 60.
+Each wheel has a target number. On wheel 1 you need to spin 20 or less. On wheel 2 you need to spin 10 or less and on wheel 3 you need to spin 7 or less.
+If you fail to hit your target, the round ends immediately. Wait for the cool-off time before trying again. But your target for that wheel will increase in the next round. The more you missed by, the more it will go up.
 Think passing all three wheels means you cum? Think again. Once you've passed all three, ask me: “Please can I cum?” If I say “Yes”, you can cum and the game ends. If I say “No”, you lose the round and must wait for the cool-off period before trying again. The good news? Since you met all three targets, none of your targets will increase. You'll start your next attempt with the same targets.
 I'll decide on the cooling off time between each round. The longer the game goes on, the more time I'll start adding on.
 Are you ready? Good. Let's begin. In each round edge until you're ready to cum, then slide through to see if you drew the winning numbers.
-Round 1 - Targets 45-15-10 - Probability of Progressing 2.7%
-First Wheel: Between 1 and 100. Your target is: 45.
-You rolled: 18.  Congratulations, you progress to the next wheel.
-Second Wheel: Between 1 and 50. Your target is: 15.
-You rolled: 30. I'm sorry you've failed the round. Your new target for the second wheel is 30.
+Round 1 - Targets 20-10-7 - Probability of Progressing 1.1%
+First Wheel: Between 1 and 100. Your target is: 20.
+You rolled: 65. I'm sorry you've failed the round. Your target for the first wheel increased to 43.
 You must wait 1 minute before completing the next round.
-Round 2 - Targets 45-30-10 - Probability of Progressing 5.4%
-First Wheel: Between 1 and 100. Your target is: 45.
-You rolled: 5.  Congratulations, you progress to the next wheel.
-Second Wheel: Between 1 and 50. Your target is: 30.
-You rolled: 7.  Congratulations, you progress to the next wheel.
-Third Wheel: Between 1 and 25. Your target is: 10.
-You rolled: 17. I'm sorry you've failed the round. Your new target for the third wheel is 17.
+Round 2 - Targets 43-10-7 - Probability of Progressing 2.4%
+First Wheel: Between 1 and 100. Your target is: 43.
+You rolled: 42. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 10.
+You rolled: 31. I'm sorry you've failed the round. Your target for the second wheel increased to 21.
 You must wait 1 minute before completing the next round.
-Round 3 - Targets 45-30-17 - Probability of Progressing 9.2%
-First Wheel: Between 1 and 100. Your target is: 45.
-You rolled: 52. I'm sorry you've failed the round. Your new target for the first wheel is 52.
+Round 3 - Targets 43-21-7 - Probability of Progressing 5.1%
+First Wheel: Between 1 and 100. Your target is: 43.
+You rolled: 46. I'm sorry you've failed the round. Your target for the first wheel increased to 45.
 You must wait 1 minute before completing the next round.
-Round 4 - Targets 52-30-17 - Probability of Progressing 10.6%
-First Wheel: Between 1 and 100. Your target is: 52.
-You rolled: 24.  Congratulations, you progress to the next wheel.
-Second Wheel: Between 1 and 50. Your target is: 30.
-You rolled: 29.  Congratulations, you progress to the next wheel.
+Round 4 - Targets 45-21-7 - Probability of Progressing 5.3%
+First Wheel: Between 1 and 100. Your target is: 45.
+You rolled: 79. I'm sorry you've failed the round. Your target for the first wheel increased to 62.
+You must wait 1 minute before completing the next round.
+Round 5 - Targets 62-21-7 - Probability of Progressing 7.3%
+First Wheel: Between 1 and 100. Your target is: 62.
+You rolled: 81. I'm sorry you've failed the round. Your target for the first wheel increased to 72.
+You must wait 1 minute before completing the next round.
+Round 6 - Targets 72-21-7 - Probability of Progressing 8.5%
+First Wheel: Between 1 and 100. Your target is: 72.
+You rolled: 62. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 21.
+You rolled: 35. I'm sorry you've failed the round. Your target for the second wheel increased to 28.
+You must wait 1 minute before completing the next round.
+Round 7 - Targets 72-28-7 - Probability of Progressing 11.3%
+First Wheel: Between 1 and 100. Your target is: 72.
+You rolled: 68. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 28.
+You rolled: 27. Congratulations, you progress to the next wheel.
+Third Wheel: Between 1 and 25. Your target is: 7.
+You rolled: 15. I'm sorry you've failed the round. Your target for the third wheel increases to 11.
+You must wait 1 minute before completing the next round.
+Round 8 - Targets 72-28-11 - Probability of Progressing 17.7%
+First Wheel: Between 1 and 100. Your target is: 72.
+You rolled: 92. I'm sorry you've failed the round. Your target for the first wheel increased to 82.
+You must wait 1 minute before completing the next round.
+Round 9 - Targets 82-28-11 - Probability of Progressing 20.2%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 69. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 28.
+You rolled: 38. I'm sorry you've failed the round. Your target for the second wheel increased to 33.
+You must wait 1 minute before completing the next round.
+Round 10 - Targets 82-33-11 - Probability of Progressing 23.8%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 24. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 33.
+You rolled: 14. Congratulations, you progress to the next wheel.
+Third Wheel: Between 1 and 25. Your target is: 11.
+You rolled: 22. I'm sorry you've failed the round. Your target for the third wheel increases to 17.
+You must wait 15 minutes before completing the next round.
+Round 11 - Targets 82-33-17 - Probability of Progressing 36.8%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 33. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 33.
+You rolled: 6. Congratulations, you progress to the next wheel.
 Third Wheel: Between 1 and 25. Your target is: 17.
-You rolled: 20. I'm sorry you've failed the round. Your new target for the third wheel is 20.
-You must wait 1 minute before completing the next round.
-Round 5 - Targets 52-30-20 - Probability of Progressing 12.5%
-First Wheel: Between 1 and 100. Your target is: 52.
-You rolled: 44.  Congratulations, you progress to the next wheel.
-Second Wheel: Between 1 and 50. Your target is: 30.
-You rolled: 24.  Congratulations, you progress to the next wheel.
-Third Wheel: Between 1 and 25. Your target is: 20.
-You rolled: 5. Now you may ask me the question.
+You rolled: 15. Now you may ask me the question.
 Now ask me for the first time: “Please can I cum?”
+The answer is: No, no you may not cum. Of course you can't cum. You fail the round.
+You must wait 30 minutes before completing the next round.
+Round 12 - Targets 82-33-17 - Probability of Progressing 36.8%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 50. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 33.
+You rolled: 39. I'm sorry you've failed the round. Your target for the second wheel increased to 36.
+You must wait 5 minutes before completing the next round.
+Round 13 - Targets 82-36-17 - Probability of Progressing 40.1%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 77. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 36.
+You rolled: 31. Congratulations, you progress to the next wheel.
+Third Wheel: Between 1 and 25. Your target is: 17.
+You rolled: 3. Now you may ask me the question.
+Now ask me for the second time: “Please can I cum?”
+The answer is: No, no you may not cum. Of course you can't cum. You fail the round.
+You must wait 5 minutes before completing the next round.
+Round 14 - Targets 82-36-17 - Probability of Progressing 40.1%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 49. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 36.
+You rolled: 45. I'm sorry you've failed the round. Your target for the second wheel increased to 41.
+You must wait 5 minutes before completing the next round.
+Round 15 - Targets 82-41-17 - Probability of Progressing 45.7%
+First Wheel: Between 1 and 100. Your target is: 82.
+You rolled: 62. Congratulations, you progress to the next wheel.
+Second Wheel: Between 1 and 50. Your target is: 41.
+You rolled: 27. Congratulations, you progress to the next wheel.
+Third Wheel: Between 1 and 25. Your target is: 17.
+You rolled: 9. Now you may ask me the question.
+Now ask me for the third time: “Please can I cum?”
 The answer is: Yes, you may cum. If you must. Just don't make too much of a mess and don't make a habit out of it.
 Well done for winning my game. Hope to see you again soon :)
-Your game ended after 5 rounds. You failed the first wheel 1 time, you failed the second wheel 1 time and you failed the third wheel 2 times. You got to cum on your first attempt.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Your game ended after 15 rounds. You failed the first wheel 5 times, you failed the second wheel 5 times and you failed the third wheel 2 times. I said no to you 2 times before finally letting you cum.
 
 
 
