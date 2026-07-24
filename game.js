@@ -1,3 +1,5 @@
+const SAVE_PREFIX = "EdgeGame_";
+
 let lines = [];
 let currentLine = 0;
 let currentGame = "";
@@ -8,6 +10,11 @@ function loadGame() {
 
     currentGame = document.getElementById("gameSelect").value;
 
+    // Remove the Continue button if it exists
+    const button = document.getElementById("continueButton");
+    if (button)
+        button.remove();
+
     fetch("scripts/" + currentGame)
         .then(response => response.text())
         .then(text => {
@@ -17,9 +24,9 @@ function loadGame() {
 
             output.textContent = "Ready.\nPress NEXT.";
 
-            // Save the newly started game
-            localStorage.setItem("game", currentGame);
-            localStorage.setItem("line", currentLine);
+            // Save the new game
+            localStorage.setItem(SAVE_PREFIX + "game", currentGame);
+            localStorage.setItem(SAVE_PREFIX + "line", currentLine);
 
         });
 
@@ -33,9 +40,9 @@ function nextLine() {
 
         currentLine++;
 
-        // Save progress after every line
-        localStorage.setItem("game", currentGame);
-        localStorage.setItem("line", currentLine);
+        // Save progress
+        localStorage.setItem(SAVE_PREFIX + "game", currentGame);
+        localStorage.setItem(SAVE_PREFIX + "line", currentLine);
 
         window.scrollTo(0, document.body.scrollHeight);
 
@@ -43,9 +50,9 @@ function nextLine() {
 
         output.textContent += "\n\n--- END OF GAME ---";
 
-        // Clear the save once the game is finished
-        localStorage.removeItem("game");
-        localStorage.removeItem("line");
+        // Clear the save
+        localStorage.removeItem(SAVE_PREFIX + "game");
+        localStorage.removeItem(SAVE_PREFIX + "line");
 
     }
 
@@ -61,12 +68,12 @@ document.addEventListener("keydown", function(event){
 
 function continueGame() {
 
-    const savedGame = localStorage.getItem("game");
+    const savedGame = localStorage.getItem(SAVE_PREFIX + "game");
 
     if (!savedGame)
         return;
 
-    const savedLine = parseInt(localStorage.getItem("line")) || 0;
+    const savedLine = parseInt(localStorage.getItem(SAVE_PREFIX + "line")) || 0;
 
     currentGame = savedGame;
 
@@ -78,12 +85,41 @@ function continueGame() {
 
             lines = text.split("\n");
 
-            output.textContent = "Game restored.\nPress NEXT to continue.";
+            output.textContent = "";
 
             currentLine = savedLine;
+
+            // Remove the Continue button
+            const button = document.getElementById("continueButton");
+            if (button)
+                button.remove();
 
         });
 
 }
 
-window.onload = continueGame;
+function checkForSavedGame() {
+
+    const savedGame = localStorage.getItem(SAVE_PREFIX + "game");
+
+    if (!savedGame)
+        return;
+
+    const savedLine = localStorage.getItem(SAVE_PREFIX + "line");
+
+    const button = document.createElement("button");
+
+    button.id = "continueButton";
+
+    button.textContent =
+        "▶ Continue " +
+        savedGame.replace(".txt", "") +
+        " (Line " + savedLine + ")";
+
+    button.onclick = continueGame;
+
+    document.body.insertBefore(button, output);
+
+}
+
+window.onload = checkForSavedGame;
